@@ -26,5 +26,8 @@ public class Main {
       temp2 = N/C;
     }
     System.out.println(Math.min(temp1*B, temp2*D));
+    /*
+    System.out.println(Math.min((N % A != 0 ? ((N - (N % A)) / A) + 1 : N / A) * B, (N % C != 0 ? ((N - (N % C)) / C) + 1 : N / C) * D));
+    */
   }
 }
